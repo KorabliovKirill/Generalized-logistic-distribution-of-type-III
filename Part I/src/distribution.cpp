@@ -67,7 +67,7 @@ namespace distribution{
 		double x1 = -10;
 		double x2 = 10;
 		double dx = (x2 - x1) / (double)N;
-		std::string filename = "D:/WorkSpace/C++/Projects/Generalized-logistic-distribution-of-type-III/res/distribution_fplot";
+		std::string filename = "../../res/distribution_fplot";
 		filename.append(std::to_string(n)).append(".txt");
 		std::ofstream file(filename.c_str());
 		for (int i = 0; i < N; i++) {
